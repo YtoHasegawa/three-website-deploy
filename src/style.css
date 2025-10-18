@@ -17,6 +17,12 @@ canvas {
   left: 0;
 }
 
+@media screen and (max-width: 768px) {
+  h1 { font-size: 18vw; }
+  h2 { font-size: 14vw; }
+  p { font-size: 7vw; }
+}
+
 main {
   position: absolute;
   width: 100vw;
